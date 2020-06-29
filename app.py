@@ -18,7 +18,7 @@ def connect_db():
         host='127.0.0.1',
         database='postgres',
         port='5432',
-        password='Sivapt@64'
+        password='' #your usual password
         )
     return conn
 
